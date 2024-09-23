@@ -106,7 +106,7 @@ function DibujarFlor(x, y, NumeroPetalos, RadioXPetalo, RadioYPetalo, AltoTrazo)
         // Dibuja el centro de la flor
         ctx.beginPath();
         ctx.arc(x, y, 10, 0, Math.PI * 2);
-        ctx.fillStyle = 'white';
+        ctx.fillStyle = 'brown';
         ctx.fill();
       }
       dibujarSiguientePetalo();
