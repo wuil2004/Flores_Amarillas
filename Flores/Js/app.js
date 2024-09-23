@@ -70,7 +70,7 @@ function DibujarFlor(x, y, NumeroPetalos, RadioXPetalo, RadioYPetalo, AltoTrazo)
       ctx.moveTo(x, y);
       ctx.lineTo(x, NuevaY);
       ctx.lineWidth = 3;
-      ctx.strokeStyle = 'black';
+      ctx.strokeStyle = 'green';
       ctx.stroke();
       NuevaY += AltoTallo;
       setTimeout(DibujarTallo, 100);
@@ -124,7 +124,7 @@ function DibujarFlorSinTallo(x, y, NumeroPetalos, RadioXPetalo, RadioYPetalo, Al
       ctx.moveTo(x, y);
       ctx.lineTo(x, NuevaY);
       ctx.lineWidth = 3;
-      ctx.strokeStyle = 'black';
+      ctx.strokeStyle = 'green';
       ctx.stroke();
       NuevaY += AltoTallo;
       setTimeout(DibujarTallo, 100);
